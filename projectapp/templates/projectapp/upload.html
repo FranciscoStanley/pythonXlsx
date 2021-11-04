@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+main page
+{% endblock title %}
+
+{% block content %}
+<form action="" method="post" class="ui form" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form}}
+    <input type="file" name="myfile">
+    <button type="submit" class="ui button primary">Enviar</button>
+ </form>
+{% endblock content %}
