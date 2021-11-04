@@ -1,7 +1,7 @@
 # pythonXlsx
 ## Teste Desenvolvedor
 
-*Teste Desenvolvedor
+** Teste Desenvolvedor
 Nesse desafio iremos avaliar suas habilidades em:
 Python
 Django
@@ -18,4 +18,4 @@ Transformar coluna "nascimento" para data.
 Após a carga de dados você deve criar os dois endpoints abaixo usando DRF:
 GET: retornando mulheres de mereen.
 GET: receber o sexo (m ou f) como parâmetro, filtrar e retornar a lista de
-pessoas, ordenanda por idade.
+pessoas, ordenanda por idade. **
