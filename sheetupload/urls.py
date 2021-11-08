@@ -19,7 +19,6 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from rest_framework import routers
-
 from projectapp import views
 from projectapp.api.viewsets import PersonViewSet, PersonSexoViewSet
 
@@ -33,7 +32,5 @@ urlpatterns = [
     path('', include('projectapp.urls', namespace='projectapp')),
     path('export/', views.export),
     path('person/', include(router.urls)),
-    path('mereen/', include(router.urls)),
-    path('sexo/', include(router.urls)),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
